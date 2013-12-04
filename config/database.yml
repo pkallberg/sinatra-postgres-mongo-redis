@@ -6,7 +6,7 @@ development:
   password: 'sinatra_app'
 
 production:
-  adapter: 'postgresql'
+  adapter: postgresql
   database: database
   host: ENV['DATABASE_URL']
   username: username
