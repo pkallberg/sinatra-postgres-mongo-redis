@@ -4,7 +4,6 @@ development:
   host: 'localhost'
   username: 'sinatra_app'
   password: 'sinatra_app'
-
 production:
   adapter: postgresql
   database: database
